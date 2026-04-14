@@ -1,17 +1,16 @@
-> **⚠️ Archive Notice**
+> **⚠️ アーカイブについて / Archive Notice**
 >
-> This is an archived copy of the original source code by noprogllama / sakuranjunkie-staff.
-> Original repo (`noprogllama/sui-memory`) is no longer available on GitHub or Software Heritage.
-> The maintained fork is at [mtk0x/sui-memory](https://github.com/mtk0x/sui-memory).
+> noprogllama / sakuranjunkie-staff によるオリジナルのソースコードのアーカイブです。
+> 元リポジトリ（`noprogllama/sui-memory`）は GitHub・Software Heritage ともに現存しません。
+> バグ修正・機能追加を含むフォーク版: [mtk0x/sui-memory](https://github.com/mtk0x/sui-memory)
 >
-> **Known issues in this original code:**
-> - FTS5 special character crash (no query sanitization)
-> - FTS5 duplicate check bug (session_id level instead of per-pair → 2nd+ pairs silently skipped)
-> - `created_at` type mismatch (REAL vs TEXT → 30-day filter always false, all sessions excluded)
-> - VM/cloud environments unsupported (hooks assume local filesystem)
-> - Context noise (no quality filtering on injected memories)
-> - Hybrid search latency (~3s+, problematic on low-spec machines)
->
+> **オリジナルコードの既知の問題:**
+> - FTS5 特殊文字クラッシュ（クエリのサニタイズなし）
+> - FTS5 重複チェックバグ（session_id 単位で判定 → 2件目以降のペアが無言でスキップ）
+> - `created_at` 型不一致（REAL vs TEXT → 30日フィルタが常に偽、全セッション除外）
+> - VM・クラウド環境で動作不可（hooks がローカルパス前提）
+> - コンテキスト汚染（品質フィルタなしで低関連度の記憶が注入される）
+> - ハイブリッド検索レイテンシ（ベクトル検索で +3秒以上、低スペックPCでは実用困難）
 
 ---
 
