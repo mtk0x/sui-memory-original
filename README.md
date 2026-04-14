@@ -1,8 +1,19 @@
 > **⚠️ Archive Notice**
-> This repository is an archived copy of the original source code by noprogllama / sakuranjunkie-staff.
-> The original repo (`noprogllama/sui-memory`) is no longer available on GitHub.
-> Below is the original author's README, unmodified. The "インスピレーション" and "謝辞" sections are the author referencing their own Zenn article.
-> For known issues and the maintained fork, see [ARCHIVE_NOTICE.md](ARCHIVE_NOTICE.md).
+>
+> This is an archived copy of the original source code by noprogllama / sakuranjunkie-staff.
+> Original repo (`noprogllama/sui-memory`) is no longer available on GitHub or Software Heritage.
+> The maintained fork is at [mtk0x/sui-memory](https://github.com/mtk0x/sui-memory).
+>
+> **Known issues in this original code:**
+> - FTS5 special character crash (no query sanitization)
+> - FTS5 duplicate check bug (session_id level instead of per-pair → 2nd+ pairs silently skipped)
+> - `created_at` type mismatch (REAL vs TEXT → 30-day filter always false, all sessions excluded)
+> - VM/cloud environments unsupported (hooks assume local filesystem)
+> - Context noise (no quality filtering on injected memories)
+> - Hybrid search latency (~3s+, problematic on low-spec machines)
+>
+
+---
 
 # sui-memory
 
