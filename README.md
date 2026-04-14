@@ -1,3 +1,5 @@
+> **⚠️ This is an archived copy of the original source code. See [ARCHIVE_NOTICE.md](ARCHIVE_NOTICE.md) for details.**
+
 # sui-memory
 
 Claude Codeにセッション間の長期記憶を持たせるツール。
