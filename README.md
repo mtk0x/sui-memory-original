@@ -1,3 +1,9 @@
+> **⚠️ Archive Notice**
+> This repository is an archived copy of the original source code by noprogllama / sakuranjunkie-staff.
+> The original repo (`noprogllama/sui-memory`) is no longer available on GitHub.
+> Below is the original author's README, unmodified. The "インスピレーション" and "謝辞" sections are the author referencing their own Zenn article.
+> For known issues and the maintained fork, see [ARCHIVE_NOTICE.md](ARCHIVE_NOTICE.md).
+
 # sui-memory
 
 Claude Codeにセッション間の長期記憶を持たせるツール。
