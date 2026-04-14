@@ -7,11 +7,14 @@ This is an archived copy of the original **sui-memory** source code by [noprogll
 - **License**: MIT (as stated by the original author)
 
 The original repository has been removed from GitHub and is not archived on Software Heritage.
-This copy preserves the initial implementation as-is, with no modifications to the original source code.
-
-The original README references noprogllama's own Zenn article as "inspiration" — this is the author referring to their own writeup, not a third party.
+This copy preserves the initial implementation as-is. README and all source files are the original author's, unmodified.
 
 For the actively maintained fork with additional features and bug fixes, see [mtk0x/sui-memory](https://github.com/mtk0x/sui-memory).
+
+## Notes
+
+- README の「インスピレーション」「謝辞」は原作者 noprogllama 本人が自身の Zenn 記事を参照しているもの（第三者の発言ではない）
+- GitHub アカウント `noprogllama` と commit author `sakuranjunkie-staff` は同一人物
 
 ## Known Issues in the Original Code
 

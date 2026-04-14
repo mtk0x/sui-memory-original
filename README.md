@@ -1,14 +1,12 @@
-> **⚠️ This is an archived copy of the original source code. See [ARCHIVE_NOTICE.md](ARCHIVE_NOTICE.md) for details.**
-
 # sui-memory
 
 Claude Codeにセッション間の長期記憶を持たせるツール。
 
 外部サービス不要・LLM不使用・完全ローカル動作。
 
-## 設計思想
+## インスピレーション
 
-アーキテクチャ設計の思想は[こちらのZenn記事](https://zenn.dev/noprogllama/articles/7c24b2c2410213)に基づいています。
+[noprogllama氏のZenn記事](https://zenn.dev/noprogllama/articles/7c24b2c2410213)に触発されて実装しました。アーキテクチャ設計の思想はこの記事に基づいています。
 
 ## 特徴
 
@@ -105,3 +103,6 @@ sui-memory/
 
 MIT
 
+## 謝辞
+
+アーキテクチャ設計の着想は[noprogllama](https://zenn.dev/noprogllama)氏の記事から得ました。
